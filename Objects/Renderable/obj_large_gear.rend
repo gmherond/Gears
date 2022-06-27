@@ -1,0 +1,18 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Objects/Mesh/obj_large_gear.fbx",
+         "minViewSize" : 345,
+         "subMeshList" : [
+            {
+               "material" : "Dif",
+               "textureList" : [
+                  "$CONTENT_DATA/Objects/Textures/medium_gear_texture.png",
+                  "$CONTENT_DATA/Objects/Textures/medium_gear_texture.png",
+                  "$CONTENT_DATA/Objects/Textures/medium_gear_texture.png"
+               ]
+            }
+         ]
+      }
+   ]
+}

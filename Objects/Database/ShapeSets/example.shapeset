@@ -1,0 +1,57 @@
+{
+   "partList" : [
+      {
+         "color" : "9999FF",
+         "cylinder" : {
+            "axis" : "Z",
+            "depth" : 1,
+            "diameter" : 3,
+            "margin" : 0.50
+         },
+         "flammable" : false,
+         "name" : "obj_medium_gear",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 3,
+            "friction" : 5
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/obj_medium_gear.rend",
+         "rotationSet" : "PropZ",
+         "scripted" : {
+            "classname" : "MediumGear",
+            "filename" : "$CONTENT_DATA/Scripts/MediumGear.lua"
+         },
+         "stackSize" : 10,
+         "sticky" : "-Z+Z",
+         "uuid" : "6b7e6228-e445-49c5-a3e3-271894d11108"
+      },
+      {
+         "color" : "9999FF",
+         "cylinder" : {
+            "axis" : "Z",
+            "depth" : 1,
+            "diameter" : 5,
+            "margin" : 0.750
+         },
+         "name" : "obj_large_gear",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/obj_large_gear.rend",
+         "rotationSet" : "PropZ",
+         "scripted" : {
+            "classname" : "LargeGear",
+            "filename" : "$CONTENT_DATA/Scripts/LargeGear.lua"
+         },
+         "stackSize" : 10,
+         "sticky" : "-Z+Z",
+         "uuid" : "b6a911f0-85ef-4f28-a2ff-527fadc1e342"
+      }
+   ]
+}
